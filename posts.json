@@ -1,26 +1,68 @@
 [
     {
-        "date": "4 April 2023",
-        "message": "This is a test message<br>new line here<br><a href=\"https://www.google.com\">Google Link</a>",
-        "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-        "tags": ["a", "test2"]
+        "date": "September 2023",
+        "message": "Starting my Masters in Data Science at NYU!",
+        "image": "https://logos-world.net/wp-content/uploads/2021/09/NYU-Logo.png",
+        "tags": ["education"]
     },
     {
-        "date": "5 April 2023",
-        "message": "This is a test message<br>new line here<br><a href=\"https://www.google.com\">Google Link</a>",
-        "image": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-        "tags": ["a"]
-    },
-    {
-        "date": "6 April 2023",
-        "message": "This is a test message<br>new line here<br><a href=\"https://www.google.com\">Google Link</a>",
+        "date": "March 2023",
+        "message": "Built Metroscore, a Python package which helps transit planners determine where, when, and how transit in their city can be improved.<br><a href=\"https://pypi.org/project/metroscore/\">Package</a>",
         "image": "",
-        "tags": ["test2"]
+        "tags": ["project"]
     },
     {
-        "date": "6 April 2023",
-        "message": "This is a test message<br>new line here<br><a href=\"https://www.google.com\">Google Link</a>",
+        "date": "March 2023",
+        "message": "Completed my senior capstone project into kernel machines and how they can help us understand neural network behavior. See the <a href=\"\">poster</a> and <a href=\"\">article</a> here.",
         "image": "",
-        "tags": ["test3"]
+        "tags": ["research", "project", "education"]
+    },
+    {
+        "date": "December 2022",
+        "message": "Did some research into redlining and quantifying its impact on various American Cities. Read the paper <a href=\"https://arxiv.org/abs/2212.04117\">here</a>.",
+        "image": "",
+        "tags": ["research", "project"]
+    },
+    {
+        "date": "September 2022",
+        "message": "Started as President of the <a href=\"https://ds3.ucsd.edu\">Data Science Student Society at UCSD</a>. We have ~300 active members, and I help put organize around 30 events each quarter to help students learn various skills within data science.",
+        "image": "images/DS3_chevron.jpeg",
+        "tags": ["other"]
+    },
+    {
+        "date": "June 2022",
+        "message": "Second internship at AWS Sagemaker, this time in Seattle. Built a brand-new, highly requested feature that involved redbuilding the guts of the system.",
+        "image": "https://macventurecapital.com/wp-content/uploads/2021/02/SageMaker.jpg",
+        "tags": ["internship"]
+    },
+    {
+        "date": "June 2021",
+        "message": "Interned at AWS Sagemaker in New York. Built a series of time series analysis features into SageMaker Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-time-series-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
+        "image": "https://macventurecapital.com/wp-content/uploads/2021/02/SageMaker.jpg",
+        "tags": ["internship"]
+    },
+    {
+        "date": "March 2021",
+        "message": "Did some ML research for talking dogs. Specifically, I built a computer vision anomaly detection system to detect relevant research video in over 2TB of research footage.<br>Check out the <a href=\"https://www.nytimes.com/2021/05/27/style/bunny-the-dog-animal-communication.html\">New York Times article</a> on the project!",
+        "image": "https://lh3.googleusercontent.com/8jJ0K20Xj-ka0gM7VhjHrjLgEO-od-LHYV5B5uW-JHilJGQQPekA4TvHaLZnBCsvNF4KJQrIkbauLeu24Qu3-5Y=w16383",
+        "tags": ["research", "project"]
+    },
+    {
+        "date": "September 2020",
+        "message": "Founded the British Parliamentary debate team at UCSD, and coached the 30+ members on the team until 2022.",
+        "image": "",
+        "tags": ["other"]
+    },
+    {
+        "date": "August 2020",
+        "message": "Wrote a Python package to help time series analysts detect price shocks in time series data.<br><a href=\"https://pypi.org/project/sigmet/0.9.0/\">Package</a><br><a href=\"https://arxiv.org/abs/1912.11341\">Paper</a>",
+        "image": "",
+        "tags": ["project"]
+    },
+    {
+        "date": "September 2019",
+        "message": "Started at UCSD!",
+        "image": "https://download.logo.wine/logo/University_of_California%2C_San_Diego/University_of_California%2C_San_Diego-Logo.wine.png",
+        "tags": ["education"]
     }
 ]
