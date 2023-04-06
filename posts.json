@@ -36,6 +36,12 @@
         "tags": ["internship"]
     },
     {
+        "date": "November 2021",
+        "message": "Competed in the 2021 Student Cluster Competition. Once again, our team placed 1st in the US and 4th in the world!",
+        "image": "images/sc21.png",
+        "tags": ["other"]
+    },
+    {
         "date": "June 2021",
         "message": "Interned at AWS Sagemaker in New York. Built a series of time series analysis features into SageMaker Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-time-series-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
         "image": "https://macventurecapital.com/wp-content/uploads/2021/02/SageMaker.jpg",
@@ -44,8 +50,14 @@
     {
         "date": "March 2021",
         "message": "Did some ML research for talking dogs. Specifically, I built a computer vision anomaly detection system to detect relevant research video in over 2TB of research footage.<br>Check out the <a href=\"https://www.nytimes.com/2021/05/27/style/bunny-the-dog-animal-communication.html\">New York Times article</a> on the project!",
-        "image": "https://lh3.googleusercontent.com/8jJ0K20Xj-ka0gM7VhjHrjLgEO-od-LHYV5B5uW-JHilJGQQPekA4TvHaLZnBCsvNF4KJQrIkbauLeu24Qu3-5Y=w16383",
+        "image": "images/tct.png",
         "tags": ["research", "project"]
+    },
+    {
+        "date": "November 2020",
+        "message": "Competed in the 2020 Student Cluster Competition, where students compete to build and run the world's fastest supercomputer in 36 hours. We placed 4th in the world, and 1st in the US!<br><a href=\"\">Press Release</a>",
+        "image": "images/sc20.png",
+        "tags": ["other"]
     },
     {
         "date": "September 2020",

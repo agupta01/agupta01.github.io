@@ -144,6 +144,12 @@ function loadPosts() {
             });
         });
     });
+
+    // Make all links open in a new tab
+    $(document).on("click", "a", function (e) {
+        e.preventDefault();
+        window.open($(this).attr("href"));
+    });
 }
 
 loadPosts();
