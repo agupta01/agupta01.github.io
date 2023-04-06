@@ -47,7 +47,7 @@
 .post {
   background-color: #f1f1f1;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -98,6 +98,7 @@
 
 .post-message {
     font-size: 14px;
+    padding-top: 8px;
 }
 
 .timeline-toolbar {
