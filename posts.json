@@ -13,7 +13,7 @@
     },
     {
         "date": "March 2023",
-        "message": "Completed my senior capstone project into kernel machines and how they can help us understand neural network behavior. See the <a href=\"\">poster</a> and <a href=\"\">article</a> here.",
+        "message": "Completed my senior capstone project into kernel machines and how they can help us understand neural network behavior. See the <a href=\"https://drive.google.com/file/d/1YKCUJjYiZ3WxS8YCVMocYt-vBlyIkWB8/view?usp=sharing\">poster</a> and <a href=\"https://arxiv.org/abs/2303.15745\">article</a> here. This also marked my graduation from UCSD with a BS in Data Science and a minor in Mathematics.",
         "image": "",
         "tags": ["research", "project", "education"]
     },
@@ -26,13 +26,13 @@
     {
         "date": "September 2022",
         "message": "Started as President of the <a href=\"https://ds3.ucsd.edu\">Data Science Student Society at UCSD</a>. We have ~300 active members, and I help organize around 30 events each quarter to help students learn various skills within data science.",
-        "image": "images/DS3_chevron.jpeg",
+        "image": "images/DS3_chevron.png",
         "tags": ["other"]
     },
     {
         "date": "June 2022",
         "message": "Second internship at AWS Sagemaker, this time in Seattle. Built a brand-new, highly requested feature that involved redbuilding the guts of the system.",
-        "image": "https://macventurecapital.com/wp-content/uploads/2021/02/SageMaker.jpg",
+        "image": "images/SageMaker.png",
         "tags": ["internship"]
     },
     {
@@ -44,7 +44,7 @@
     {
         "date": "June 2021",
         "message": "Interned at AWS Sagemaker in New York. Built a series of time series analysis features into SageMaker Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-time-series-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
-        "image": "https://macventurecapital.com/wp-content/uploads/2021/02/SageMaker.jpg",
+        "image": "images/SageMaker.png",
         "tags": ["internship"]
     },
     {
@@ -55,7 +55,7 @@
     },
     {
         "date": "November 2020",
-        "message": "Competed in the 2020 Student Cluster Competition, where students compete to build and run the world's fastest supercomputer in 36 hours. We placed 4th in the world, and 1st in the US!<br><a href=\"\">Press Release</a>",
+        "message": "Competed in the 2020 Student Cluster Competition, where students compete to build and run the world's fastest supercomputer in 36 hours. We placed 4th in the world, and 1st in the US!<br><a href=\"https://sc20.supercomputing.org/2020/09/04/global-lineup-will-compete-at-scs-first-virtual-student-cluster-competition/\">Press Release</a>",
         "image": "images/sc20.png",
         "tags": ["other"]
     },
