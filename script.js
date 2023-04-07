@@ -7,7 +7,6 @@ function getColors(n) {
     const startHue = Math.floor(Math.random() * 360);
     for (let i = 0; i < n; i++) {
         const hue = Math.floor((360 / n) * i + startHue);
-        console.log(hue);
         colors.push(hslToHex(hue, saturation, luminance));
     }
     return colors;
@@ -51,10 +50,8 @@ function loadPosts() {
             // Generate a random color for each tag
             var colors = getColors(uniqueTags.size);
             Array.from(uniqueTags).forEach(function (tag, index) {
-                console.log(tag, index);
                 tagColors[tag] = colors[index];
             });
-            console.log(tagColors);
             // Loop through each post in the JSON data
             $.each(data, function (index, post) {
                 // Create a new div for the post
@@ -132,10 +129,11 @@ function loadPosts() {
                     activeTags.push($(this).attr("data-tag"));
                 });
 
-                // Filter the list to those which include any of the active tags
+                // Filter the list to those which include all of the active tags
                 $(".post").each(function () {
-                    var tags = $(this).attr("data-tags");
-                    if (tags.includes(activeTags)) {
+                    var tags = $(this).attr("data-tags").split(",");
+                    var tagDifference = activeTags.filter((x) => !tags.includes(x));
+                    if (tagDifference.length == 0) {
                         $(this).show();
                     } else {
                         $(this).hide();
