@@ -31,7 +31,7 @@
     },
     {
         "date": "June 2022",
-        "message": "Second internship at AWS Sagemaker, this time in Seattle. Built a brand-new, highly requested feature that involved redbuilding the guts of the system.",
+        "message": "Second internship at AWS Sagemaker, this time in Seattle. Built a brand-new, highly requested feature that enabled users to work with image data in Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-image-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
         "image": "images/Sagemaker.png",
         "tags": ["internship"]
     },
