@@ -7,7 +7,7 @@
     },
     {
         "date": "March 2023",
-        "message": "Built Metroscore, a Python package which helps transit planners determine where, when, and how transit in their city can be improved.<br><a href=\"https://pypi.org/project/metroscore/\">Package</a>",
+        "message": "Built Metroscore, a Python package which helps transit planners determine where, when, and how transit in their city can be improved.<br><a href=\"https://pypi.org/project/metroscore/\">Package</a><br><a href=\"https://github.com/agupta01/metroscore/blob/main/docs/metroscore_v1.pdf\">Whitepaper</a>",
         "image": "",
         "tags": ["project"]
     },
