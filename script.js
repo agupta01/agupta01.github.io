@@ -129,6 +129,12 @@ function loadPosts() {
                     activeTags.push($(this).attr("data-tag"));
                 });
 
+                // If no tags are selected, show all posts
+                if (activeTags.length === 0) {
+                    $(".post").show();
+                    return;
+                }
+
 
                 // Filter the list to those which include any of the active tags
                 $(".post").each(function () {
