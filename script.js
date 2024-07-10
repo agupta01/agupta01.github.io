@@ -129,11 +129,12 @@ function loadPosts() {
                     activeTags.push($(this).attr("data-tag"));
                 });
 
-                // Filter the list to those which include all of the active tags
+
+                // Filter the list to those which include any of the active tags
                 $(".post").each(function () {
                     var tags = $(this).attr("data-tags").split(",");
-                    var tagDifference = activeTags.filter((x) => !tags.includes(x));
-                    if (tagDifference.length == 0) {
+                    var tagIntersection = activeTags.filter((x) => tags.includes(x));
+                    if (tagIntersection.length > 0) {
                         $(this).show();
                     } else {
                         $(this).hide();
