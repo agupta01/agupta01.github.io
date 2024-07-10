@@ -1,9 +1,21 @@
 [
     {
+        "date": "March 2024",
+        "message": "Switched teams at AWS to work on AWS Glue, maintaining the backend of a $1M/day service.",
+        "image": "images/Glue.svg",
+        "tags": ["work"]
+    },
+    {
         "date": "September 2023",
         "message": "Starting my Masters in Data Science at NYU!",
         "image": "https://logos-world.net/wp-content/uploads/2021/09/NYU-Logo.png",
         "tags": ["education"]
+    },
+    {
+        "date": "August 2023",
+        "message": "Started working as a full-time software engineer at AWS in New York, on the Sagemaker low-code-no-code team. Released a low-code LLM fine tuning feature at re:invent 2023.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/fine-tune-and-deploy-language-models-with-amazon-sagemaker-canvas-and-amazon-bedrock/\">Press Release</a>",
+        "image": "images/Sagemaker.svg",
+        "tags": ["work"]
     },
     {
         "date": "March 2023",
@@ -32,7 +44,7 @@
     {
         "date": "June 2022",
         "message": "Second internship at AWS Sagemaker, this time in Seattle. Built a brand-new, highly requested feature that enabled users to work with image data in Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-image-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
-        "image": "images/Sagemaker.png",
+        "image": "images/Sagemaker.svg",
         "tags": ["internship"]
     },
     {
@@ -44,7 +56,7 @@
     {
         "date": "June 2021",
         "message": "Interned at AWS Sagemaker in New York. Built a series of time series analysis features into SageMaker Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-time-series-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
-        "image": "images/Sagemaker.png",
+        "image": "images/Sagemaker.svg",
         "tags": ["internship"]
     },
     {
