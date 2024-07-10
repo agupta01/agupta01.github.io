@@ -151,4 +151,17 @@ function loadPosts() {
     });
 }
 
+function dynamicProfilePhoto() {
+    // When user mouses over the profile photos, change it to the fun one
+    $(".profile-photo").on("mouseover", function () {
+        $(this).attr("src", "images/profile_fun.jpeg");
+    });
+
+    // When user mouses out of the profile photos, change it back to the normal one
+    $(".profile-photo").on("mouseout", function () {
+        $(this).attr("src", "images/profile_2024.jpeg");
+    });
+}
+
 loadPosts();
+dynamicProfilePhoto();
