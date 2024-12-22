@@ -1,5 +1,11 @@
 [
     {
+        "date": "December 2024",
+        "message": "Launched Amazon SageMaker Unified Studio at re:invent 2024.",
+        "image": "images/SageMaker-Studio.png",
+        "tags": ["work"]
+    },
+    {
         "date": "March 2024",
         "message": "Switched teams at AWS to work on AWS Glue, maintaining the backend of a $1M/day service.",
         "image": "images/Glue.svg",
