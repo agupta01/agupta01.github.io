@@ -53,8 +53,8 @@ The `manifest.json` file contains metadata for all blog posts:
   "title": "Post Title",
   "subheading": "Two-line description of the post",
   "date": "YYYY-MM-DD",
-  "path": "blog/posts/filename.md",
-  "thumbnail": "blog/images/thumbnail.jpg",
+  "path": "posts/filename.md",
+  "thumbnail": "images/thumbnail.jpg",
   "tags": ["tag1", "tag2"]
 }
 ```
@@ -100,8 +100,8 @@ Add a new entry to `manifest.json`:
   "title": "My New Blog Post",
   "subheading": "A brief description of what this post is about, spanning at most two lines.",
   "date": "2024-12-15",
-  "path": "blog/posts/my-new-post.md",
-  "thumbnail": "blog/images/my-thumbnail.jpg",
+  "path": "posts/my-new-post.md",
+  "thumbnail": "images/my-thumbnail.jpg",
   "tags": ["tag1", "tag2"]
 }
 ```
