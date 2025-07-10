@@ -1,0 +1,38 @@
+[
+  {
+    "id": "machine-learning-in-transit",
+    "title": "Machine Learning Applications in Urban Transit Systems",
+    "subheading": "Exploring how ML algorithms can optimize public transportation efficiency and improve passenger experience in modern cities.",
+    "date": "2024-12-15",
+    "path": "blog/posts/machine-learning-in-transit.md",
+    "thumbnail": "blog/images/transit-ml-thumb.jpg",
+    "tags": ["machine learning", "urban planning", "transit"]
+  },
+  {
+    "id": "aws-sagemaker-journey",
+    "title": "My Journey Building ML Features at AWS SageMaker",
+    "subheading": "Lessons learned from developing production ML tools used by thousands of data scientists worldwide.",
+    "date": "2024-11-28",
+    "path": "blog/posts/aws-sagemaker-journey.md",
+    "thumbnail": "blog/images/sagemaker-thumb.jpg",
+    "tags": ["aws", "career", "machine learning"]
+  },
+  {
+    "id": "nyc-data-science-insights",
+    "title": "Data Science in the Big Apple: NYC Through Numbers",
+    "subheading": "Analyzing urban patterns and discovering insights about New York City using publicly available datasets.",
+    "date": "2024-10-12",
+    "path": "blog/posts/nyc-data-science-insights.md",
+    "thumbnail": "blog/images/nyc-data-thumb.jpg",
+    "tags": ["data science", "nyc", "urban analytics"]
+  },
+  {
+    "id": "kernel-machines-neural-networks",
+    "title": "Understanding Neural Networks Through Kernel Machines",
+    "subheading": "Deep dive into my capstone research on how kernel methods help us understand neural network behavior and learning.",
+    "date": "2024-09-05",
+    "path": "blog/posts/kernel-machines-neural-networks.md",
+    "thumbnail": "blog/images/kernel-ml-thumb.jpg",
+    "tags": ["research", "machine learning", "neural networks"]
+  }
+]
