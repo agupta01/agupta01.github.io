@@ -20,7 +20,7 @@ blog/
 ├── manifest.json       # Blog metadata and configuration
 ├── blog-script.js      # JavaScript functionality
 ├── blog-style.css      # Blog-specific styles
-├── README.md           # This file
+├── AGENTS.md           # This file
 ├── images/             # Thumbnail images
 │   └── .gitkeep       # Ensures directory is tracked
 └── posts/              # Markdown blog posts

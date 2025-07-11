@@ -34,7 +34,7 @@ function displayPosts(posts) {
         
         const tagsHtml = post.tags.map(tag => 
             `<span class="blog-tag">${tag}</span>`
-        ).join('');
+        ).join(' ');
         
         const postCard = `
             <div class="blog-post-card" onclick="openBlogPost('${post.id}')">
