@@ -1,0 +1,2 @@
+# This file ensures the blog/images directory is tracked by git
+# You can add actual thumbnail images here by replacing the placeholder paths in manifest.json

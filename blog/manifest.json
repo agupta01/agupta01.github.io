@@ -1,0 +1,12 @@
+[
+  {
+    "id": "observed-reliability",
+    "title": "Observed Reliability is Not Designed Reliability",
+    "subheading": "Exploring the gap between how reliability is measured and how it’s actually experienced",
+    "date": "2025-08-02T00:00:00",
+    "path": "posts/frequency-vs-reliability.md",
+    "thumbnail": "images/piotr-osmenda-WeNrlFHvG50-unsplash.jpg",
+    "thumbnailCredit": "Photo by Piotr Osmenda on Unsplash",
+    "tags": ["transit", "statistics"]
+  }
+]

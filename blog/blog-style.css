@@ -1,0 +1,254 @@
+/* Blog-specific styles that extend the main site styles */
+
+.blog-nav {
+    margin-top: 2rem;
+}
+
+.nav-link {
+    color: #666;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.blog-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.blog-header .lead {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.blog-post-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition:
+        transform 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #e9ecef;
+}
+
+.blog-post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.blog-post-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.blog-post-subheading {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.blog-post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.blog-post-date {
+    font-weight: 500;
+}
+
+.blog-post-tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.blog-tag {
+    background-color: #cd9c9c;
+    color: #333;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.filter-button {
+    background-color: white;
+    border: 2px solid #cd9c9c;
+    color: #333;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+    background-color: #f8f9fa;
+}
+
+.filter-button.active {
+    background-color: #cd9c9c;
+    color: white;
+}
+
+.filter-button.show-all {
+    border-color: #007bff;
+}
+
+.filter-button.show-all.active {
+    background-color: #007bff;
+}
+
+/* Blog post detail page styles */
+.blog-post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.blog-post-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-content h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-content h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.blog-post-content p {
+    margin-bottom: 1.2rem;
+    font-size: 0.92rem;
+    line-height: 1.5rem;
+}
+
+.blog-post-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 6px;
+}
+
+.blog-post-content blockquote {
+    border-left: 4px solid #cd9c9c;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #666;
+}
+
+.blog-post-content code {
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    font-size: 0.9rem;
+}
+
+.blog-post-content pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.blog-post-content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Enhanced syntax highlighting styles */
+.blog-post-content pre {
+    border: 1px solid #e1e4e8;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+.blog-post-content pre code.hljs {
+    background-color: #f6f8fa;
+}
+
+/* Ensure inline code stands out from syntax highlighted blocks */
+.blog-post-content :not(pre) > code {
+    background-color: rgba(27, 31, 35, 0.05);
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 0;
+    padding: 0.2em 0.4em;
+}
+
+/* Math rendering adjustments */
+.blog-post-content .katex-display {
+    margin: 1.5rem 0;
+}
+
+/* Table formatting */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px 14px;
+    text-align: left;
+}
+th {
+    background-color: #cd9c9c;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+tr:nth-child(even) {
+    background-color: #f1f6fb;
+}
+
+@media (max-width: 768px) {
+    .blog-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .blog-post-card {
+        padding: 1rem;
+    }
+
+    .blog-post-title {
+        font-size: 1.3rem;
+    }
+}
