@@ -150,10 +150,12 @@ function loadPosts() {
         });
     });
 
-    // Make all links open in a new tab
+    // Make all links open in a new tab except those with target="_self"
     $(document).on("click", "a", function (e) {
-        e.preventDefault();
-        window.open($(this).attr("href"));
+        if ($(this).attr("target") !== "_self") {
+            e.preventDefault();
+            window.open($(this).attr("href"));
+        }
     });
 }
 
