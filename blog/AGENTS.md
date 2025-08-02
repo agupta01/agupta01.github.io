@@ -102,6 +102,7 @@ Add a new entry to `manifest.json`:
   "date": "2024-12-15T00:00:00",
   "path": "posts/my-new-post.md",
   "thumbnail": "images/my-thumbnail.jpg",
+  "thumbnailCredit": "Credit to whoever made/took the thumbnail pic",
   "tags": ["tag1", "tag2"]
 }
 ```
@@ -112,6 +113,7 @@ If you want a thumbnail image:
 1. Add the image to `blog/images/`
 2. Update the `thumbnail` field in the manifest
 3. If no thumbnail, set `thumbnail` to `""` or `null`
+4. Set `thumbnailCredit` to the credit for the thumbnail image
 
 ## Supported Markdown Features
 
