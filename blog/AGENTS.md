@@ -99,12 +99,13 @@ Add a new entry to `manifest.json`:
   "id": "my-new-post",
   "title": "My New Blog Post",
   "subheading": "A brief description of what this post is about, spanning at most two lines.",
-  "date": "2024-12-15",
+  "date": "2024-12-15T00:00:00",
   "path": "posts/my-new-post.md",
   "thumbnail": "images/my-thumbnail.jpg",
   "tags": ["tag1", "tag2"]
 }
 ```
+Make sure to include the "T00:00:00" part of the date so that JavaScript knows to format the date in local time, not in UTC (else it gives you the day before).
 
 ### Step 4: Add Thumbnail (Optional)
 If you want a thumbnail image:
