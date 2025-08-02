@@ -1,7 +1,7 @@
 [
     {
         "date": "December 2024",
-        "message": "Launched Amazon SageMaker Unified Studio at re:invent 2024.",
+        "message": "Launched Amazon SageMaker Unified Studio at re:invent 2024.<br><a href=\"https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/\">(GA!) Press Release</a>",
         "image": "images/SageMaker-Studio.png",
         "tags": ["work"]
     },
