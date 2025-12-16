@@ -1,5 +1,17 @@
 [
     {
+        "date": "December 2025",
+        "message": "Launched the Apache Spark Troubleshooting Agent as a managed MCP Server at re:invent 2025.<br><a href=\"https://aws.amazon.com/blogs/big-data/introducing-the-apache-spark-troubleshooting-agent-for-amazon-emr-and-aws-glue/\">Announcement Blog</a>",
+        "image": "images/Amazon_Web_Services_logo.svg.png",
+        "tags": ["work"]
+    },
+    {
+        "date": "October 2025",
+        "message": "Gave an invited talk at the 2025 Airflow Summit on Airflow Operator development.<br><a href=\"https://www.youtube.com/watch?v=dsU0CSOEVCM\">Talk Recording</a>",
+        "image": "images/AirflowLogo.png",
+        "tags": ["work"]
+    },
+    {
         "date": "December 2024",
         "message": "Launched Amazon SageMaker Unified Studio at re:invent 2024.<br><a href=\"https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/\">(GA!) Press Release</a>",
         "image": "images/SageMaker-Studio.png",
