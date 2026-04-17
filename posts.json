@@ -1,5 +1,17 @@
 [
     {
+        "date": "February 2026",
+        "message": "Joined CoreWeave to work on Observability Insights.",
+        "image": "images/CRWV.png",
+        "tags": ["work"]
+    },
+    {
+        "date": "January 2026",
+        "message": "Published work mapping the length of every crosswalk in the 100 largest U.S. cities in the <em>Journal of Transport and Land Use</em>.<br><a href=\"https://jtlu.org/index.php/jtlu/article/view/2771\">Paper</a>",
+        "image": "images/jtlu_logo.png",
+        "tags": ["research", "project"]
+    },
+    {
         "date": "December 2025",
         "message": "Launched the Apache Spark Troubleshooting Agent as a managed MCP Server at re:invent 2025.<br><a href=\"https://aws.amazon.com/blogs/big-data/introducing-the-apache-spark-troubleshooting-agent-for-amazon-emr-and-aws-glue/\">Announcement Blog</a>",
         "image": "images/Amazon_Web_Services_logo.svg.png",
@@ -9,25 +21,19 @@
         "date": "October 2025",
         "message": "Gave an invited talk at the 2025 Airflow Summit on Airflow Operator development.<br><a href=\"https://www.youtube.com/watch?v=dsU0CSOEVCM\">Talk Recording</a>",
         "image": "images/AirflowLogo.png",
-        "tags": ["work"]
+        "tags": ["other"]
+    },
+    {
+        "date": "May 2025",
+        "message": "Earned my Masters in Data Science from NYU.",
+        "image": "https://logos-world.net/wp-content/uploads/2021/09/NYU-Logo.png",
+        "tags": ["education"]
     },
     {
         "date": "December 2024",
         "message": "Launched Amazon SageMaker Unified Studio at re:invent 2024.<br><a href=\"https://aws.amazon.com/blogs/aws/collaborate-and-build-faster-with-amazon-sagemaker-unified-studio-now-generally-available/\">(GA!) Press Release</a>",
         "image": "images/SageMaker-Studio.png",
         "tags": ["work"]
-    },
-    {
-        "date": "March 2024",
-        "message": "Switched teams at AWS to work on AWS Glue, maintaining the backend of a $1M/day service.",
-        "image": "images/Glue.svg",
-        "tags": ["work"]
-    },
-    {
-        "date": "September 2023",
-        "message": "Starting my Masters in Data Science at NYU!",
-        "image": "https://logos-world.net/wp-content/uploads/2021/09/NYU-Logo.png",
-        "tags": ["education"]
     },
     {
         "date": "August 2023",
@@ -48,12 +54,6 @@
         "tags": ["research", "project", "education"]
     },
     {
-        "date": "December 2022",
-        "message": "Did some research into redlining and quantifying its impact on various American Cities. Read the paper <a href=\"https://arxiv.org/abs/2212.04117\">here</a>.",
-        "image": "",
-        "tags": ["research", "project"]
-    },
-    {
         "date": "September 2022",
         "message": "Started as President of the <a href=\"https://ds3.ucsd.edu\">Data Science Student Society at UCSD</a>. We have ~300 active members, and I help organize around 30 events each quarter to help students learn various skills within data science.",
         "image": "images/DS3_chevron.png",
@@ -64,6 +64,12 @@
         "message": "Second internship at AWS Sagemaker, this time in Seattle. Built a brand-new, highly requested feature that enabled users to work with image data in Data Wrangler.<br><a href=\"https://aws.amazon.com/blogs/machine-learning/prepare-image-data-with-amazon-sagemaker-data-wrangler/\">Press Release</a>",
         "image": "images/Sagemaker.svg",
         "tags": ["internship"]
+    },
+    {
+        "date": "December 2021",
+        "message": "Did some research into redlining and quantifying its impact on various American Cities. Read the paper <a href=\"https://arxiv.org/abs/2212.04117\">here</a>.",
+        "image": "",
+        "tags": ["research", "project"]
     },
     {
         "date": "November 2021",
